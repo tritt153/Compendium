@@ -1,0 +1,11 @@
+"0","weather <- data %>%"
+"0","  select(Weather_Condition, Severity) %>%"
+"0","  drop_na(Weather_Condition, Severity) %>%"
+"0","  filter(Weather_Condition == ""Snow"" | "
+"0","         Weather_Condition == ""Overcast"" |"
+"0","         Weather_Condition == ""Freezing Rain"" |"
+"0","         Weather_Condition == ""Rain"" | "
+"0","         Weather_Condition == ""Clear"")"
+"2","Error in data %>% select(Weather_Condition, Severity) %>% drop_na(Weather_Condition,  : 
+  could not find function ""%>%""
+"

@@ -1,0 +1,2 @@
+"0","data <- read.csv(""US_Accidents_Dec21_updated.csv"","
+"0","                 na = c("""", "" ""))"

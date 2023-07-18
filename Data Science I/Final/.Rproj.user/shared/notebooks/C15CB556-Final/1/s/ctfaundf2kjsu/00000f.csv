@@ -1,0 +1,13 @@
+"0","severity <- data %>%"
+"0","  select(Severity, Roundabout) %>%"
+"0","  filter(Roundabout == ""True"") %>%"
+"0","  drop_na(Roundabout, Severity)"
+"0",""
+"0","ggplot(severity, aes(x = Severity, fill = as.factor(Severity))) + "
+"0","  geom_histogram() + "
+"0","  ylab(""# of Accidents Based on Severity"") + "
+"0","  ggtitle(""Roundabout Accident Severity"") +"
+"0","  theme(plot.title = element_text(hjust = 0.5)) + "
+"0","  scale_fill_discrete(""Severity Level"")"
+"2","`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+"

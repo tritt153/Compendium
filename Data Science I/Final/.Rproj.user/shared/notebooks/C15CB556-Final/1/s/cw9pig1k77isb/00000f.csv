@@ -1,0 +1,14 @@
+"0","(p1)
+"
+"1","[1m[33mError[39m in [38;5;254m`check_required_aesthetics()`[39m:[22m
+[33m![39m geom_point requires the following missing aesthetics: y
+Backtrace:
+[90m 1. [39m[1mbase[22m `<fn>`(x)
+[90m 2. [39mggplot2:::print.ggplot(x)
+[90m 4. [39mggplot2:::ggplot_build.ggplot(x)
+[90m 5. [39mggplot2 by_layer(function(l, d) l$compute_geom_1(d))
+[90m 6. [39mggplot2 f(l = layers[[i]], d = data[[i]])
+[90m 7. [39ml$compute_geom_1(d)
+[90m 8. [39mggplot2 f(..., self = self)
+[90m 9. [39mggplot2:::check_required_aesthetics(...)
+"

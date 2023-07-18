@@ -1,0 +1,6 @@
+"0","visibility <- data %>%
+  filter(State = ""PA"", ""NY"", ""NJ"", ""DE"", ""WV"", ""VA"", ""MD"")
+"
+"2","Error in data %>% filter(State = ""PA"", ""NY"", ""NJ"", ""DE"", ""WV"", ""VA"", ""MD"") : 
+  could not find function ""%>%""
+"
